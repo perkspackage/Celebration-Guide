@@ -754,3 +754,19 @@ footer small {
     font-size: 0.57rem;
   }
 }
+/* Fix navigation scroll position */
+html {
+scroll-behavior: smooth;
+}
+
+section {
+scroll-margin-top: 80px;
+}
+/* Allergy information under each dish */
+.food-card .allergen {
+margin-top: 6px;
+font-size: 0.78rem;
+font-style: italic;
+opacity: 0.75;
+line-height: 1.5;
+}
